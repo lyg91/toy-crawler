@@ -10,6 +10,7 @@ public class JsoupCrawler
         String url = "https://www.naver.co.kr";
         Document doc = Jsoup.connect(url).get();
         
+        /** 2. Print Element */ 
         System.out.println(doc.toString());
     }
 }

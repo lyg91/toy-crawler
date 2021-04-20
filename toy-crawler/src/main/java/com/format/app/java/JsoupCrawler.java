@@ -2,7 +2,11 @@ package com.format.app.java;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-
+/**
+ * @name JsoupCrawler
+ * @author Format
+ *
+ */
 public class JsoupCrawler 
 {
     public static void main(String[] args) throws Exception {
